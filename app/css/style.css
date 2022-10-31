@@ -1,0 +1,43 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    font-size: 23px;;
+    height: 100%;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.bg {
+    height: 100vh;
+    width: 100vw;
+    position: relative;
+    background-image: url("/app/images/newnewBL.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.contentHere {
+    position: fixed;
+    top: 15%;
+    left: 55%;
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px rgb(0, 0, 0);
+}
+
+.no {
+    text-align: center;
+    font-size: 10px;
+}
+
+a:link {
+    color: rgb(124, 0, 196);
+    text-decoration: none;
+  }
+a:hover {
+    color: rgb(158, 125, 171);
+  }
+a:active {
+    color: rgb(255, 255, 255);
+  }
